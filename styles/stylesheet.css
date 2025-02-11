@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Matrix";
+  src: url(/assets/fonts/Matrix-MZ4P.ttf);
+}
+
+@font-face {
+  font-family: "Code";
+  src: url(/assets/fonts/BeautifulPoliceOfficer-rvv8x.ttf);
+}
+body {
+  background-image: url("/assets/matrixWP.jpg");
+  font-family: "Code",Arial, Helvetica, sans-serif;
+  color: greenyellow;
+}
+
+.gameScreen{
+  min-height: 100vh;
+  display: flex;
+  align-items:center;
+}
+
+h1{
+    font-family: "Matrix",Arial, Helvetica, sans-serif;
+    width: fit-content;
+    font-size: 5vw;
+}
+
+h2{
+  width: fit-content;
+  font-size: 3vw;
+  margin: 0px;
+}
+h3{
+  width: fit-content;
+  font-size: 2vw;
+  margin: 0px;
+}
+
+#slider{
+    accent-color: greenyellow;
+}
+#slider2{
+    accent-color: greenyellow;
+}
+
+input{
+  background-color: rgb(29, 36, 43);
+  border: 1px white solid;
+  border-radius: .5rem;
+  padding: .25rem;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 8rem;
+}
+
+button{
+  padding: .25rem;
+}
+
+#remove{
+  background-color: transparent;
+  color: greenyellow;
+  border: none;
+}
+
+#remove:hover{
+  color: red;
+  cursor: pointer;
+}
+
+#nameBlock{
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+  border: 1px solid greenyellow;
+  padding: .5rem;
+}
+
+hr{
+  margin: .25rem;
+}
+
+.offcanvas{
+  background-color: rgb(39, 35, 35);
+  color: greenyellow;
+}
+
+.offcanvas.offcanvas-top{
+  top: 40%;
+}
