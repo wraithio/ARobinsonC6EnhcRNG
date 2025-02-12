@@ -25,6 +25,6 @@ Requirements:
 
 ---
 
-github [here](https://github.com/wraithio/ARobinsonC5Budget)
+github [here](https://github.com/wraithio/ARobinsonC6EnhcRNG)
 
-vercel [here](https://a-robinson-c5-budget.vercel.app/)
+vercel [here](https://a-robinson-c6-enhc-rng.vercel.app/)
