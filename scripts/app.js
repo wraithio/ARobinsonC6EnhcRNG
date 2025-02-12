@@ -94,10 +94,6 @@ let generate = (groups) => {
   }
   warningBlock.remove();
 
-  //   for (let i = 0; i < groupNum; i++) {
-  //     groupArr.push([]);
-  //   }
-  //   randomBody.innerText = groupNum;
   console.log(groups);
   for (let i = 0; i < nameArr.length; i += Number(groups)) {
     console.log(i)
@@ -131,13 +127,6 @@ let generate = (groups) => {
     groupDiv.appendChild(groupText);
     randomBody.appendChild(groupDiv);
   });
-
-  // group1.innerText = `Group 1: ${nameArr.slice(nameArr.length / 2,nameArr.length)}`
-  // group2.innerText = `Group 2: ${nameArr.slice(0,nameArr.length / 2)}`
-  // console.log(group1)
-  // console.log(group2)
-  // randomBody.appendChild(group1)
-  // randomBody.appendChild(group2)
 };
 
 genBtn.addEventListener("click", () => {
